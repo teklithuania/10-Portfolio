@@ -44,6 +44,29 @@ const services = [
 // team
 
 // numbers
+const numbers = [
+    {
+        icon: 'television',
+        number: 130,
+        title: 'Projects done'
+    },
+    {
+        icon: 'users',
+        number: 80,
+        title: 'Happy client'
+    },
+    {
+        icon: 'clock-o',
+        number: 700,
+        title: 'Employees'
+    },
+    {
+        icon: 'trophy',
+        number: 90,
+        title: 'Award winners'
+    },
+];
+
 
 // pricing
 

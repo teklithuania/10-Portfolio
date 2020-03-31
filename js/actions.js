@@ -14,6 +14,7 @@ renderServices( services );
 // team
 
 // numbers
+renderNumbers( numbers );
 
 // pricing
 

@@ -23,12 +23,26 @@ function renderServices( serviceList ) {
                 </div>`;
     }
     
-    return document.querySelector('.transferServaices').innerHTML = HTML;
+    return document.querySelector('.transferServices').innerHTML = HTML;
 }
 
 // team
 
 // numbers
+function renderNumbers( numberList ) {
+    let HTML = '';
+
+    for (let i = 0; i < numberList.length; i++) {
+        const numberSection = numberList[i];
+        HTML += `<div class="transferNumbers"> 
+                    <i class"fa fa-${numberSection.icon} numberIcon"></i>
+                    <h3>${numberSection.number}</h3>
+                    <p>${numberSection.title}</p>
+                </div>`;
+    }
+    return document.querySelector('.transferNumbers').innerHTML = HTML;
+}
+
 
 // pricing
 

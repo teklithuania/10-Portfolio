@@ -114,6 +114,37 @@ h2::after {
 
 /************************************************************/
 /* NUMBERS */
+.transferNumbers {
+    display: inline-block;
+    width: calc(100% / 4);
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+    .transferNumbers > i {
+        display: inline-block;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .servtransferNumbersice > h3 {
+        display: inline-block;
+        width: 100%;
+        margin: 10px 0;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .transferNumbers > p {
+        display: inline-block;
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+    .transferNumbers .numbersIcon {
+        width: 80px;
+        padding: 15px 0;
+        border-radius: 50%;
+    }
 
 /************************************************************/
 
