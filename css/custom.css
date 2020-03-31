@@ -7,9 +7,11 @@
 /* LAYOUT */
 .bg-primary {
     background-color: var(--color-primary-light);
+    color: var(--color-primary-light-anti);
 }
 .bg-grey {
     background-color: var(--color-grey);
+    color: var(--color-grey-anti);
 }
 h2 {
     display: inline-block;
@@ -69,6 +71,12 @@ h2::after {
 
 /************************************************************/
 /* SERVICES */
+.bg-numbers {
+    background-image: url(..//img/count-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 .service {
     display: inline-block;
     width: calc(100% / 3);
@@ -118,33 +126,39 @@ h2::after {
     display: inline-block;
     width: calc(100% / 4);
     float: left;
-    padding: 20px;
-    text-align: center;
 }
-    .transferNumbers > i {
+    .transferNumbers > div > i {
         display: inline-block;
+        float: left;
+        color: #FFF;
         font-size: 50px;
         line-height: 50px;
+        margin: 0 0 0 50px;
     }
-    .servtransferNumbersice > h3 {
+    .transferNumbers> div > h3 {
         display: inline-block;
-        width: 100%;
-        margin: 10px 0;
+        width: calc(50% - 25px);
+        float: left;
+        font-size: 40px;
+        line-height: 40px;
+        margin: 0 0 0 10px;
+        text-align: left;
+    }
+    .transferNumbers > div > p {
+        display: inline-block;
+        width: calc(50% - 25px);
+        float: left;
         font-size: 20px;
         line-height: 20px;
-    }
-    .transferNumbers > p {
-        display: inline-block;
-        width: 100%;
-        font-size: 14px;
-        line-height: 20px;
+        margin: 0 0 0 10px;
+        text-align: left;
 
     }
-    .transferNumbers .numbersIcon {
-        width: 80px;
+    /* .transferNumbers > div > .numbersIcon {
+        width: 100px;
         padding: 15px 0;
         border-radius: 50%;
-    }
+    } */
 
 /************************************************************/
 

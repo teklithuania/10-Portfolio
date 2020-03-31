@@ -35,9 +35,9 @@ function renderNumbers( numberList ) {
     for (let i = 0; i < numberList.length; i++) {
         const numberSection = numberList[i];
         HTML += `<div class="transferNumbers"> 
-                    <i class"fa fa-${numberSection.icon} numberIcon"></i>
-                    <h3>${numberSection.number}</h3>
-                    <p>${numberSection.title}</p>
+                    <div><i class="fa fa-${numberSection.icon} numberIcon"></i></div>
+                    <div><h3>${numberSection.number}</h3>
+                    <p>${numberSection.title}</p></div>
                 </div>`;
     }
     return document.querySelector('.transferNumbers').innerHTML = HTML;
