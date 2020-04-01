@@ -19,6 +19,7 @@ renderNumbers( numbers );
 // pricing
 
 // blog
+renderBlog ( blog );
 
 // contact us
 

@@ -1,5 +1,7 @@
 "use strict"
 
+const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
 // header
 
 // hero
@@ -71,6 +73,50 @@ const numbers = [
 // pricing
 
 // blog
+const blog = [
+    {
+        data: {
+            day: 23,
+            month: 6,
+            year: 2018
+        },
+        photo: {
+            src: 'related-post-1.jpg',
+            alt: 'Proto 1'
+        },
+        title: 'BusinessStrategy Consule',
+        description: 'Energistically facilitate market positioning vis-a-vis extensive niches. Competently fashion low-risk high-yield initiatives before cross-unit',
+        link: '#'
+    },
+    {
+        data: {
+            day: 23,
+            month: 7,
+            year: 2019
+        },
+        photo: {
+            src: 'related-post-2.jpg',
+            alt: 'Proto 2'
+        },
+        title: 'Packaging Design for Avanaa',
+        description: 'Energistically facilitate market positioning vis-a-vis extensive niches. Competently fashion low-risk high-yield initiatives before cross-unit',
+        link: '#'
+    },
+    {
+        data: {
+            day: 23,
+            month: 8,
+            year: 2020
+        },
+        photo: {
+            src: 'related-post-3.jpg',
+            alt: 'Proto 3'
+        },
+        title: 'Using laptop beside aloe vera',
+        description: 'Energistically facilitate market positioning vis-a-vis extensive niches. Competently fashion low-risk high-yield initiatives before cross-unit',
+        link: '#'
+    }
+];
  
 // contact us
 
