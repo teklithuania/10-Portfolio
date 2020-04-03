@@ -82,7 +82,7 @@ function renderBlog( blogList ) {
         }
 
 
-        HTML += `<div class="blog">
+        HTML += `<div class="blog col-4 col-md-6 col-sm-12">
                         <img src="./img/blog/${blogSection.photo.src}" alt="${blogSection.photo.alt}">
                         <a class="date" href="${blogSection.link}/articles-by-date/${dateLink}">${formatedDate}</a>
                         <a class="title" href="${blogSection.link}">${blogSection.title}</a>

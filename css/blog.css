@@ -1,15 +1,16 @@
 .blog-list {
     display: inline-block;
-    width: calc(100% + 30px);
+    /* width: calc(100% + 30px); */
     margin: 0 -15px;
     overflow: hidden;
 }
     .blog-list > .blog {
         display: inline-block;
-        width: calc((100% - 90px) / 3);
+        /* width: calc((100% - 90px) / 3); */
         float: left;
         margin: 0 15px;
         position: relative;
+        margin-top: 20px;
     }
     .blog-list > .blog > img {
         display: inline-block;
