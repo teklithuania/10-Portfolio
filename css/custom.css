@@ -71,16 +71,10 @@ h2::after {
 
 /************************************************************/
 /* SERVICES */
-.bg-numbers {
-    background-image: url(..//img/count-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
 .service {
     display: inline-block;
-    width: calc(100% / 3);
-    float: left;
+    /* width: calc(100% / 3);
+    float: left; */
     padding: 20px;
     text-align: center;
 }
@@ -122,6 +116,12 @@ h2::after {
 
 /************************************************************/
 /* NUMBERS */
+.bg-numbers {
+    background-image: url(..//img/count-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 .transferNumbers {
     display: inline-block;
     width: calc(100% / 4);
@@ -137,7 +137,7 @@ h2::after {
     }
     .transferNumbers> div > h3 {
         display: inline-block;
-        width: calc(50% - 25px);
+        width: 50%;
         float: left;
         font-size: 40px;
         line-height: 40px;
@@ -146,14 +146,55 @@ h2::after {
     }
     .transferNumbers > div > p {
         display: inline-block;
-        width: calc(50% - 25px);
+        width: 50%;
         float: left;
         font-size: 20px;
         line-height: 20px;
         margin: 0 0 0 10px;
         text-align: left;
-
     }
+    @media (max-width: 1100px) {
+        .transferNumbers> div > h3 {
+            margin: 0 0 0 calc(50% - 170px);
+        }
+        .transferNumbers> div > p {
+            margin: 0 0 0 calc(50% - 170px);
+        }
+        .transferNumbers {
+            margin: 0 15px;
+            padding: 20px 0;
+        }
+        .transferNumbers > div > i {
+            margin: 0 0 0 calc(50% - 100px);
+            width: 50px;
+        }
+    
+}
+    @media (max-width: 900px) {
+        .transferNumbers> div > h3 {
+            margin: 0 0 0 calc(50% - 120px);
+        }
+        .transferNumbers> div > p {
+            margin: 0 0 0 calc(50% - 120px);
+        }
+        .transferNumbers {
+            margin: 0 15px;
+            padding: 20px 0;
+        }
+        .transferNumbers > div > i {
+            margin: 0 0 0 calc(50% - 100px);
+            width: 50px;
+        }
+    
+}
+    @media (max-width: 700px) {
+        .transferNumbers> div > h3 {
+            margin: 0 0 0 10px;
+        }
+        .transferNumbers> div > p {
+            margin: 0 0 0 10px;
+        }   
+}
     /* .transferNumbers > div > .numbersIcon {
         width: 100px;
         padding: 15px 0;

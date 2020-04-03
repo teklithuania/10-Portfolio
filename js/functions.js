@@ -23,7 +23,7 @@ function renderServices( serviceList ) {
 
     for (let i = 0; i < serviceList.length; i++) {
         const service = services[i];
-        HTML += `<div class="service">
+        HTML += `<div class="service col-4 col-md-6 col-sm-12">
                     <i class="fa fa-${service.icon} servicesIcon"></i>
                     <h3>${service.title}</h3>
                     <p>${service.description}</p>
@@ -48,7 +48,7 @@ function renderNumbers( numberList ) {
 
     for (let i = 0; i < numberList.length; i++) {
         const numberSection = numberList[i];
-        HTML += `<div class="transferNumbers"> 
+        HTML += `<div class="transferNumbers col-md-6 col-sm-6 col-xs-12"> 
                     <div><i class="fa fa-${numberSection.icon} numberIcon"></i></div>
                     <div><h3>${numberSection.number}</h3>
                     <p>${numberSection.title}</p></div>
