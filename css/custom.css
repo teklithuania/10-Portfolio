@@ -51,6 +51,14 @@ h2::after {
 
 /************************************************************/
 /* HERO */
+#hero {
+    min-height: 100vh;
+    background-image: url(..//img/parallax-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 
 /************************************************************/
 
