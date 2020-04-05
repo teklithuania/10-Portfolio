@@ -21,6 +21,10 @@ return mainHeader.classList.remove("show-menu");
 
 });
 
+// scroll
+window.addEventListener('scroll', scrollFun);
+
+
 // hero
 
 // about me
