@@ -59,3 +59,8 @@
         opacity: 0;
     }
 }
+@media(max-width: 330px) {
+    #hero .icon-mouse {
+        display: none;
+    }
+}
