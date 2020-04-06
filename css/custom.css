@@ -6,7 +6,7 @@
 /************************************************************/
 /* LAYOUT */
 .bg-primary {
-    background-color: var(--color-primary-light);
+    background-color: var(--background-gradient);
     color: var(--color-primary-light-anti);
 }
 .bg-grey {
@@ -53,6 +53,7 @@ h2::after {
 /* HERO */
 #hero {
     min-height: 100vh;
+    background-image: var(--background-gradient);
     background-image: url(..//img/parallax-banner.jpg);
     background-size: cover;
     background-position: center;

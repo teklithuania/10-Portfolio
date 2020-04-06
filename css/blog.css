@@ -27,7 +27,7 @@
         position: absolute;
         top: 10px;
         left: 10px;
-        background-color: var(--color-secondary-dark);
+        background-image: var(--background-gradient-reverse);
         color: var(--color-primary-light-anti);
         text-transform: uppercase;
         padding: 5px 10px;

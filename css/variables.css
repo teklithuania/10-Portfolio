@@ -6,4 +6,6 @@
     --color-star: #f6b56c;
     --color-grey: #f5f5f5;
     --color-grey-anti: #333;
+    --background-gradient: linear-gradient(to right, #00BEF9 , #006DEC);
+    --background-gradient-reverse: linear-gradient(to right, #006DEC , #00BEF9);
 }
