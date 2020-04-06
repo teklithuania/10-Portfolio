@@ -7,6 +7,8 @@
     color: #fff;
     padding: 35px 0;
     z-index: 1;
+    transition: all 0.5s;
+
 }
     #main_header i {
         display: none;
@@ -86,11 +88,12 @@
     #main_header > .overlay i {
         width: 45px;
     }
-    /* #main_header.unshow-header {
-        background-color: #000c;
-        padding: 35px 0;
-        transition: all 0.5s; 
-    }*/
+    #main_header.header-transparent {
+        background-color: transparent;
+        color: #fff;
+        padding: 50px 0;
+        transition: all 0.5s;
+    }
 @media (max-width: 900px){
     #main_header i {
         display: inline-block;

@@ -23,6 +23,7 @@ return mainHeader.classList.remove("show-menu");
 
 // scroll
 window.addEventListener('scroll', scrollFun);
+window.addEventListener('scroll', headerBackground);
 
 
 // hero

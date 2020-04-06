@@ -3,9 +3,9 @@
 // header
 function scrollFun() {
     // current scroll pozition
-    const haderHeight = document.querySelector('#main_header').offsetHeight;
+    const headerHeight = document.querySelector('#main_header').offsetHeight;
 
-    const height = window.scrollY+haderHeight;
+    const height = window.scrollY+headerHeight;
     
     // make list of section
     let links = [];
@@ -56,6 +56,16 @@ for (let i = 0; i < links.length; i++) {
             
     return;
 };
+
+function headerBackground() {
+    if (window.scrollY > 100) {
+        mainHeader.classList.remove("header-transparent");
+    } else {
+        mainHeader.classList.add("header-transparent");
+        
+    }
+    return;
+}
 
 // hero
 
