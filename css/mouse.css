@@ -35,9 +35,9 @@
     text-align: center;
     position: absolute;
     bottom: 50px;
-    left: 0;
-    right: 0;
-    margin: auto;
+    top: 90%;
+    left: calc(50% - 20px);
+    transform: translate(-90%, -(calc(50% - 20px)));    
 }
     #hero .icon-mouse > .wheel {
         display: inline-block;
@@ -57,10 +57,5 @@
     100%{
         margin-top: 34px;
         opacity: 0;
-    }
-}
-@media(max-width: 330px) {
-    #hero .icon-mouse {
-        display: none;
     }
 }
