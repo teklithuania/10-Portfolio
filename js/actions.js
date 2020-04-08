@@ -29,7 +29,8 @@ window.addEventListener('scroll', headerBackground);
 // hero
 
 // about me
-
+renderAboutUs( skills );
+// renderIconz ( iconz );
 // portfolio
 
 // services

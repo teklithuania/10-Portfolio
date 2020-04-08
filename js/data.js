@@ -8,6 +8,33 @@ const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
 
 // about me
 
+const skills = [
+    {
+        title: 'Design',
+        value: 80
+    },
+    {
+        title: 'HTML5',
+        value: 85
+    },
+    {
+        title: 'CSS3',
+        value: 95
+    }
+];
+
+// const iconz = [
+//     {
+//         title: 'laptop',
+//     },
+//     {
+//         title: 'html5',
+//     },
+//     {
+//         title: 'rocket',
+//     }
+// ];
+
 // portfolio
 
 // services

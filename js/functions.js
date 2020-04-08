@@ -70,6 +70,33 @@ function headerBackground() {
 // hero
 
 // about me
+function renderAboutUs( skillsList ) {
+    let HTML = '';
+    for (let i = 0; i < skillsList.length; i++) {
+        const skillz = skillsList[i];
+        HTML += `<div class="progress-bar">
+                    <div class="texts">
+                        <div class="label">${skillz.title}</div>
+                        <div class="value">${skillz.value}%</div>
+                    </div>
+                    <div class="bar">
+                        <div class="value" style="width: ${skillz.value}%;">
+                            <div class="loading"></div>
+                        </div>
+                    </div>
+                </div>`;
+    }
+    return document.querySelector('#skills').innerHTML = HTML;
+}
+// function renderIcon(iconzList) {
+//     let HTML = '';
+//     for (let i = 0; i < iconzList.length; i++) {
+//         const iconz = iconzList[i];
+//         HTML += ``;
+//     }
+//     return document.querySelector('#iconz').innerHTML = HTML;
+// }
+
 
 // portfolio
 

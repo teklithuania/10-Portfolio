@@ -1,5 +1,5 @@
 :root {
-    --gap: 15px;        /* margin: 0 var(--gap);*/
+    --gap: 25px;        /* margin: 0 var(--gap);*/
     --col-1: calc((100% - 12 * 2 * var(--gap)) / 12);
 
     --col-2: calc(1 * 2 * var(--gap) + 2 * var(--col-1));
