@@ -79,12 +79,12 @@ function renderServices( serviceList ) {
     
     let HTML = '';
 
-    if ( !Array.isArray(serviceList) ) {
-        return console.log('ERROR: duok sarasa..');  
-    }
-    if ( serviceList.length === 0 ) {
-        return console.log('ERROR: sarasas negali buti tuscias');  
-    }
+    // if ( !Array.isArray(serviceList) ) {
+    //     return console.log('ERROR: duok sarasa..');  
+    // }
+    // if ( serviceList.length === 0 ) {
+    //     return console.log('ERROR: sarasas negali buti tuscias');  
+    // }
 
     for (let i = 0; i < serviceList.length; i++) {
         const service = services[i];
@@ -149,7 +149,7 @@ function renderBlog( blogList ) {
 
         HTML += `<div class="blog col-4 col-md-6 col-sm-12">
                         <img src="./img/blog/${blogSection.photo.src}" alt="${blogSection.photo.alt}">
-                        <a class="date" href="${blogSection.link}/articles-by-date/${dateLink}">${formatedDate}</a>
+                        <a class="date bg-primary" href="${blogSection.link}/articles-by-date/${dateLink}">${formatedDate}</a>
                         <a class="title" href="${blogSection.link}">${blogSection.title}</a>
                         <p>${blogSection.description}</p>
                         <a class="more" href="${blogSection.link}">Learn more</a>
