@@ -23,17 +23,20 @@ const skills = [
     }
 ];
 
-// const iconz = [
-//     {
-//         title: 'laptop',
-//     },
-//     {
-//         title: 'html5',
-//     },
-//     {
-//         title: 'rocket',
-//     }
-// ];
+const iconz = [
+    {
+        title: 'laptop',
+        description: 'Design'
+    },
+    {
+        title: 'html5',
+        description: 'Development'
+    },
+    {
+        title: 'rocket',
+        description: 'Launch'
+    }
+];
 
 // portfolio
 

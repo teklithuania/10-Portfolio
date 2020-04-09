@@ -30,7 +30,7 @@ window.addEventListener('scroll', headerBackground);
 
 // about me
 renderAboutUs( skills );
-// renderIconz ( iconz );
+renderIcon( iconz );
 // portfolio
 
 // services

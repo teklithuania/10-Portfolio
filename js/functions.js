@@ -88,14 +88,17 @@ function renderAboutUs( skillsList ) {
     }
     return document.querySelector('#skills').innerHTML = HTML;
 }
-// function renderIcon(iconzList) {
-//     let HTML = '';
-//     for (let i = 0; i < iconzList.length; i++) {
-//         const iconz = iconzList[i];
-//         HTML += ``;
-//     }
-//     return document.querySelector('#iconz').innerHTML = HTML;
-// }
+function renderIcon(iconzList) {
+    let HTML = '';
+    for (let i = 0; i < iconzList.length; i++) {
+        const iconz = iconzList[i];
+        HTML +=     `<div class="icon-row col-4">
+                        <div class="ico fa fa-${iconz.title} col-2"></div>
+                        <div class="iconText">${iconz.description}</div>
+                    </div>`;
+    }
+    return document.querySelector('#iconz').innerHTML = HTML;
+}
 
 
 // portfolio
