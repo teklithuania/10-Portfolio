@@ -31,6 +31,45 @@ window.addEventListener('scroll', headerBackground);
 // about me
 renderAboutUs( skills );
 renderIcon( iconz );
+
+
+// Lightbox
+const lightBox = document.querySelector('.lightbox .background');
+const show = document.querySelector('.lightbox');
+lightBox.addEventListener('click', () => {
+  
+    return show.classList.remove('show');
+});
+
+const playButton = document.querySelector('.play-btn');
+playButton.addEventListener('click', () => {
+  
+    return show.classList.add('show');
+});
+// window.addEventListener('keypress', function(event){
+//     console.log(event);
+    
+    // closeVideo(event.key);
+    // const isEscape = (evt.keyCode === 27);
+//  });
+//  function closeVideo(key) {
+//      switch (key) {
+//          case 'isEscape':
+//              show.classList.remove('show');
+//              break;
+          
+//              default: console.log('Wrong button!');
+//                      console.log('Press displayed button!');
+//                      console.log('-----------------------');
+//      }
+//  }
+document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    if (evt.keyCode == 27) {
+        show.classList.remove('show');
+    }
+};
+
 // portfolio
 
 // services
