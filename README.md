@@ -1,3 +1,6 @@
+![HitCount](http://hits.dwyl.io/front-end-by-rimantas/14-grupe-portfolio-mim.svg)
+
+
 # 1st Portfolio project
 
 ### This is junior programmer study project.
