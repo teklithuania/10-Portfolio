@@ -1,4 +1,4 @@
-![HitCount](http://hits.dwyl.io/front-end-by-rimantas/14-grupe-portfolio-mim.svg)
+![HitCount](http://hits.dwyl.io/teklithuania/10-Portfolio.svg)
 
 
 # 1st Portfolio project
