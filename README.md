@@ -3,7 +3,7 @@
 
 # 1st Portfolio project
 
-Site published at [🎃](https://teklithuania.github.io/10-Portfolio/index.html).
+Site published at [🎃](https://undefinedCudaCore.github.io/10-Portfolio/index.html).
 
 Design assets: [Xenol](http://tuongnam.com.vn/xenol/)
 
