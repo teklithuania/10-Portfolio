@@ -1,4 +1,4 @@
-![HitCount](http://hits.dwyl.io/undefinedCudaCore/10-Portfolio.svg)
+![HitCount](http://hits.dwyl.io/teklithuania/10-Portfolio.svg)
 
 
 # 1st Portfolio project
